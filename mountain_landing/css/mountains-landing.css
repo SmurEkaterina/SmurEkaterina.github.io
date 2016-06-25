@@ -1,0 +1,805 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    background: #fff;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/*Mountains-btn*/
+.mountains-btn{
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 4px;
+    background: #36aeea;
+}
+.mountains-btn:hover{
+    background: #87d3f9;
+    color: #02537b;
+    transition: all 0.7s;
+    -webkit-transition: all 0.7s;
+    -moz-transition: all 0.7s;
+    -ms-transition: all 0.7s;
+}
+.header-info-text{
+    font-size: 18px;
+}
+.mountains-title{
+    color: #2c2e37;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+}
+.mountains-title:before{
+    content: '';
+    background: url(../images/mountains-title-before.png);
+    display: block;
+    width: 81px;
+    height: 7px;
+    margin: 0 auto 43px;
+}
+.mountains-text{
+    color: #949494;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.mountains-btn:hover{
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+}
+header{
+    background: url(../images/header-bg.jpg) no-repeat 50% 0;
+    /*background-size: cover;*/
+    padding-bottom: 217px;
+}
+.header-menu{
+    background: rgba(255,255,255,0.3);
+    padding: 11px 0 23px;
+}
+.header-menu .container {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-logo{
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 59px 0 17px;
+}
+.header-nav{
+    display: inline-block;
+    vertical-align: top;
+    margin: 20px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+}
+.header-nav li{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 21px;
+}
+.header-nav li:hover:after,
+.header-nav .active:after{
+    content: '';
+    display: block;
+    margin-top: 6px;
+    width: 100%;
+    height: 2px;
+    background: #36aeea;
+}
+.header-nav li:hover a,
+.header-nav .active a{
+    color: #4c829d;
+}
+.header-nav li:last-of-type{
+    margin-right: 0;
+}
+.header-nav li a{
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #9daeb6;
+    font-size: 12px;
+    font-weight: bold;
+}
+.mountains-btn.header-btn{
+    display: inline-block;
+    vertical-align: top;
+    background: none;
+    color: #36aeea;
+    border: 3px solid #36aeea;
+    padding: 13px 42px;
+}
+.mountains-btn.header-btn:hover{
+    background: rgba(255,255,255,0.3);
+}
+.header-info{
+    margin: 175px 0 0 43px;
+    text-align: left;
+    width: 490px;
+}
+.header-info-text{
+    color: #fff;
+    font-size: 18px;
+    margin: 5px 0 42px;
+    line-height: 28px;
+}
+.header-info .mountains-btn{
+    padding: 24px 81px;
+}
+.about-us{
+    background: #f6f4f4;
+
+}
+.about-us .container{
+    background: url(../images/about-us-bg.png) no-repeat 0 0;
+    position: relative;
+    padding: 205px 0 242px;
+}
+.about-us-info{
+    width: 360px;
+}
+.about-us-info .mountains-title{
+    text-align: left;
+    letter-spacing: 2px;
+}
+
+.about-us-info .mountains-title:before{
+    margin: 0 0 36px 0;
+}
+.about-us-info .mountains-text{
+    margin: 18px 0 33px;
+    line-height: 25px;
+}
+.about-us-info  .mountains-btn{
+    padding: 13px 23px;
+
+}
+.about-us-img{
+    position: absolute;
+    top: -35px;
+    right: -214px;
+    background: url(../images/about-us-img.png);
+    width: 895px;
+    height: 663px;
+}
+.our-journal{
+    padding: 73px 0 90px;
+}
+.our-journal .mountains-title{
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.our-journal .mountains-title:before{
+    margin: 0 auto 25px;
+}
+
+.our-journal-wrapper{
+    margin: 70px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.our-journal-item{
+    width: 380px;
+    height: 380px;
+    text-align: center;
+    position: relative;
+}
+.our-journal-item.love{
+    background: url(../images/our-journal-item-love.jpg) no-repeat 50% 0;
+}
+.our-journal-item.love:after{
+    content: '';
+    position: absolute;
+    z-index: 2;
+    width: 0;
+    height: 0;
+    border-top: 11px solid transparent;
+    border-right: 11px solid #fff;
+    border-bottom: 11px solid transparent;
+    right: 0;
+    top: 52px;
+}
+.our-journal-item.love img{
+    margin-top: 148px;
+}
+.our-journal-item.water{
+    background: url(../images/our-journal-item-water.jpg) no-repeat 50% 0;
+}
+.our-journal-item.water:after{
+    content: '';
+    position: absolute;
+    z-index: 2;
+    width: 0;
+    height: 0;
+    border-left: 11px solid transparent;
+    border-right: 11px solid transparent;
+    border-bottom: 11px solid #fff;
+    left: 53px;
+    bottom: 0;
+}
+.our-journal-item.water img{
+    margin-top: 159px;
+}
+.our-journal-item.tree{
+    background: url(../images/our-journal-item-tree.jpg) no-repeat 50% 0;
+}
+.our-journal-item.tree:after{
+    content: '';
+    position: absolute;
+    z-index: 2;
+    width: 0;
+    height: 0;
+    border-top: 11px solid transparent;
+    border-left: 11px solid #fff;
+    border-bottom: 11px solid transparent;
+    left: 0;
+    top: 55px;
+}
+.our-journal-item.tree img{
+    margin-top: 156px;
+}
+.our-journal-item.text{
+    padding: 43px 20px;
+    width: 340px;
+    height: 294px;
+}
+.our-journal-item .top-text{
+    color: #16b5ef;
+    font-size: 11px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 0;
+    letter-spacing: 2px;
+}
+.middle-text{
+    color: #212121;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin: 48px 0 0 0;
+    letter-spacing: 2px;
+    line-height: 24px;
+}
+.our-journal-item .mountains-text{
+    color: #777777;
+    margin-top: 19px;
+    line-height: 22px;
+}
+.our-journal-item .bottom-text{
+    position: absolute;
+    color: #212121;
+    font-size: 14px;
+    font-style: italic;
+    bottom: 29px;
+    left: 182px;
+}
+.order-now{
+    background: url(../images/order-now-bg.jpg) no-repeat 50% 0;
+    background-size: cover;
+    padding: 145px 0 246px;
+}
+.order-now .mountains-title{
+    text-align: left;
+    letter-spacing: 2px;
+}
+.order-now .mountains-title:before{
+    margin: 0 0 36px 0;
+}
+.order-now .mountains-text{
+    margin: 16px 0 30px;
+    line-height: 24px;
+    font-size: 16px;
+}
+.order-now-form{
+    background: #fff;
+    padding: 3px 3px 3px 0;
+    width: 852px;
+    border-radius: 5px;
+}
+.order-now-label{
+    display: inline-block;
+    vertical-align: top;
+    color: #848484;
+    font-size: 16px;
+    margin: 15px 0 0 20px;
+}
+.order-now-input{
+    display: inline-block;
+    vertical-align: top;
+    border:none;
+    padding: 0 2px 0 10px;
+    width: 180px;
+    height: 55px;
+}
+.order-now-input:focus{
+    outline: none;
+}
+.order-now-input:first-of-type:after{
+    content: '';
+    display: inline-block;
+    vertical-align: top;
+    background: #ebebeb;
+    width: 2px;
+    height: 35px;
+}
+.order-now-form .mountains-btn{
+    float: right;
+    padding: 18px 55px;
+    border: none;
+    font-size: 16px;
+
+}
+.order-now-footnote{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 14px;
+    color: #36aeea;
+    font-size: 14px;
+}
+.order-now-footnote:before {
+    content: '';
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 12px;
+    background: url(../images/icon-order-now-footnote.png) no-repeat 0 0;
+    width: 14px;
+    height: 16px;
+}
+.work{
+    padding: 72px 0 0 0;
+}
+.work .mountains-title{
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.work .mountains-title:before{
+    margin: 0 auto 25px;
+}
+.work-image{
+    margin: 69px 0 0 0;
+    text-align: center;
+}
+.work-block{
+    margin: 18px auto 103px;
+    padding: 0;
+    list-style-type: none;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 1078px;
+}
+.work-block li{
+    font-family: 'Roboto', sans-serif;
+    max-width: 210px;
+    text-align: center;
+}
+.work-block li .work-block-title{
+    color: #2c2e37;
+    font-size: 18px;
+    font-weight: bold;
+    margin: 0;
+}
+.work-block-info{
+    color: #949494;
+    font-size: 16px;
+    margin: 0;
+    line-height: 24px;
+}
+.work-block-item-1{
+    top: 453px;
+    left: 29px
+}
+.work-block-item-2{
+    top: 453px;
+    left: 320px;
+}
+.work-block-item-3{
+    top: 453px;
+    left: 615px;
+}
+.work-block-item-4{
+    top: 453px;
+    right: 20px;
+}
+.travel{
+    background: url(../images/travel-bg.jpg) no-repeat 50% 0;
+    background-size:  cover;
+    padding-bottom: 474px;
+}
+.travel .mountains-title{
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.travel .mountains-title:before{
+    margin: 0 auto 21px;
+}
+.travel-block{
+    margin: 92px 0 0 0;
+    padding: 0;
+    list-style-type: none;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.travel-item{
+    width: 170px;
+    height: 382px;
+    border-radius: 4px;
+    padding: 0 10px 0 20px;
+}
+.travel-item.carpathian{
+    background: url(../images/travel-item-carpathian-bg.png) no-repeat 0 0;
+}
+.travel-item.alps{
+    background: url(../images/travel-item-alps-bg.png) no-repeat 0 0;
+}
+.travel-item.pyrenees{
+    background: url(../images/travel-item-pyrenees-bg.png) no-repeat 0 0;
+}
+.travel-item.rocky{
+    background: url(../images/travel-item-rocky-bg.png) no-repeat 0 0;
+}
+.travel-item.kavkaz{
+    background: url(../images/travel-item-kavkaz-bg.png) no-repeat 0 0;
+}
+.travel-item-rating{
+    list-style-type: none;
+    margin: 15px 0 0 0;
+    padding: 0;
+    font-size: 0;
+}
+.travel-item-rating li{
+    display: inline-block;
+    vertical-align: top;
+    background: url(../images/travel-raiting-star.png) no-repeat 0 0;
+    width: 16px;
+    height: 15px;
+    margin-right: 5px;
+    text-align: left;
+
+}
+.travel-item-name{
+    font-size: 28px;
+    margin: 120px 0 10px 0;
+    color: #ffffff;
+}
+.travel-item-info{
+    font-size: 16px;
+    margin: 0 0 0 0;
+    color: #ffffff;
+    text-overflow: clip;
+    overflow: hidden;
+    height: 40px;
+}
+.travel-item-price{
+    color: #ffffff;
+    margin-top: 90px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.travel-item-price-before{
+    font-size: 18px;
+    margin-top: 7px;
+    text-decoration: line-through;
+}
+.travel-item-price-after{
+    font-size: 28px;
+    font-weight: 800;
+}
+.gallery{
+    padding: 70px 0 76px;
+}
+.gallery .mountains-title{
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.gallery .mountains-title:before{
+    margin: 0 auto 29px;
+}
+.gallery-column-wrapper{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    margin-top: 64px;
+}
+.gallery ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.gallery ul li:first-of-type{
+    margin-bottom: 23px;
+}
+.gallery .column-1{
+
+}
+.promo{
+    background: #b8b8b8;
+    padding: 78px 0 66px;
+}
+.promo ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+
+}
+.promo ul li a{
+    display: block;
+    text-decoration: none;
+}
+.promo ul li .promo-slack{
+    background: url(../images/promo-slack.png) no-repeat 0 0;
+    width: 80px;
+    height: 24px;
+}
+.promo ul li .promo-adobe{
+    background: url(../images/promo-adobe.png) no-repeat 0 0;
+    width: 38px;
+    height: 34px;
+}
+.promo ul li .promo-google{
+    background: url(../images/promo-google.png) no-repeat 0 0;
+    width: 80px;
+    height: 28px;
+}
+.promo ul li .promo-facebook{
+    background: url(../images/promo-facebook.png) no-repeat 0 0;
+    width: 80px;
+    height: 18px;
+}
+.promo ul li .promo-spotify{
+    background: url(../images/promo-spotify.png) no-repeat 0 0;
+    width: 80px;
+    height: 24px;
+}
+.promo ul li .promo-nike{
+    background: url(../images/promo-nike.png) no-repeat 0 0;
+    width: 70px;
+    height: 26px;
+}
+.promo ul li a:hover{
+    opacity: 0.7;
+}
+.feedback{
+    background: url(../images/feedback-bg.png) no-repeat 50% 0;
+    background-size:  cover;
+    padding: 70px 0 166px;
+}
+.feedback .mountains-title{
+    font-size: 30px;
+    letter-spacing: 3px;
+}
+.feedback .mountains-title:before{
+    margin: 0 auto 28px;
+}
+.feedback-block{
+    margin: 80px 0 139px 0;
+    padding: 0;
+}
+.feedback-block li{
+    display: inline-block;
+    vertical-align: top;
+    width: 540px;
+    line-height: 30px;
+}
+.feedback-block li:first-of-type{
+    margin: 0 44px 0 8px;
+}
+.feedback-block li:before{
+    content: '';
+    display: block;
+    margin-bottom: 20px;
+    background: url(../images/feedback-quotes.png) no-repeat 0 0;
+    width: 24px;
+    height: 22px;
+}
+.feedback-block li .feedback-text{
+    color: #bcbcbc;
+    font-size: 18px;
+    margin: 0;
+    text-align: justify;
+}
+.feedback-author{
+    margin-top: 27px;
+}
+.feedback-author-img{
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 15px;
+    overflow: hidden;
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+}
+.feedback-author-1{
+    background: url(../images/feedback-author-img-pavliv-yaroslav.png) no-repeat 0 0;
+}
+.feedback-author-2{
+    background: url(../images/feedback-author-img-john-scott.png) no-repeat 0 0;
+}
+.feedback-author p{
+    display: inline-block;
+    vertical-align: top;
+    color: #36aeea;
+    font-size: 16px;
+    margin: 20px 0 0 0;
+}
+.feedback-author p span{
+    font-weight: bold;
+}
+.feedback .contacts{
+    margin: 0 auto;
+    padding: 27px 30px 50px;
+    width: 455px;
+    height: 420px;
+    background: rgba(193,203,216,0.7);
+    border-radius: 10px;
+}
+.contacts-main-title{
+    color: #36aeea;
+    font-size: 36px;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    margin: 0;
+    text-align: center;
+}
+.contacts-info-title{
+    color: #383e4a;
+    font-size: 16px;
+    margin: 5px 0 33px 0 ;
+    text-align: center;
+}
+.contacts-input{
+    padding: 17px 0 21px 20px;
+    width: 434px;
+    border: none;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.contacts .mountains-btn{
+    border: none;
+    width: 100%;
+    padding: 26px 0;
+    font-size: 16px;
+}
+footer{
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#3a4c52+0,3e5c65+50,3f676f+100 */
+    background: #3a4c52; /* Old browsers */
+    background: -moz-linear-gradient(left, #3a4c52 0%, #3e5c65 50%, #3f676f 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left, #3a4c52 0%,#3e5c65 50%,#3f676f 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right, #3a4c52 0%,#3e5c65 50%,#3f676f 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#3a4c52', endColorstr='#3f676f',GradientType=1 ); /* IE6-9 */
+}
+footer .container{
+    padding: 26px 0 20px 10px;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+
+}
+.lisense{
+    color: #719eae;
+    font-size: 18px;
+}
+.social-block{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 128px;
+    list-style-type: none;
+    margin: -5px 30px 0 0;
+    padding: 0;
+}
+.social-block li a{
+    display: block;
+    width: 39px;
+    height: 39px;
+}
+.social-block-twitter{
+    background: #29c5f6;
+}
+.social-block-twitter:hover {
+    background: #2091b5;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+}
+.social-block-twitter img{
+    margin: 13px 0 0 13px;
+}
+.social-block-facebook{
+    background: #6788ce;
+}
+.social-block-facebook:hover{
+    background: #3b5282;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+}
+.social-block-facebook img{
+    margin: 11px 0 0 16px;
+}
+.social-block-vk{
+    background: #54769a;
+}
+.social-block-vk:hover{
+    background: #27496c;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+}
+
+.social-block-vk img{
+    margin: 13px 0 0 12px;
+}
+
+footer .meter{
+    font-family: 'Roboto', sans-serif;
+    font-size: 27px;
+    font-weight: bold;
+    color: #719eae;
+}
+
+.main-float-nav {
+    opacity: 0;
+    width: 100%;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    position: fixed;
+    top: 0;
+    background: rgba(255,255,255,0.7);
+}
+
+.main-float-nav.active {
+    opacity: 1;
+}
+
+input[type=search]::-ms-clear {
+    display: none;
+}
+input[type=text]::-ms-clear {
+    display: none;
+}
