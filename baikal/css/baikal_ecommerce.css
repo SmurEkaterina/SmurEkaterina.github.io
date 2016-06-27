@@ -1,0 +1,597 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: #fff;
+}
+.container{
+    width: 980px;
+    margin: 0 auto;
+}
+header{
+    background: #2e2e30;
+    padding: 18px 0 24px;
+}
+header .container{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.baikal-ecommerce-login{
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #7e7e7e;
+    border-radius: 5px;
+    padding: 10px 13px 6px 14px;
+    margin: 18px 0 10px 0;
+}
+.baikal-ecommerce-login:hover{
+    background: rgba(255,255,255,0.2);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.baikal-ecommerce-login:before{
+    content: '';
+    display: inline-block;
+    vertical-align: top;
+    margin: -2px 17px 0 0;
+    background: url(../images/ecommerce/icon-baikal-ecommerce-login.png);
+    width: 18px;
+    height: 17px;
+}
+.baikal-ecommerce-selection{
+    font-family: 'PT Serif', serif;
+    color: #aaaaaa;
+    font-size: 14px;
+    margin: 26px 0 0 0;
+}
+.baikal-ecommerce-selection p{
+    margin: 0;
+    display: inline-block;
+    vertical-align: top;
+}
+.baikal-ecommerce-selection .position{
+    margin-right: 10px;
+}
+.baikal-ecommerce-selection .name{
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 3px;
+    letter-spacing: 2px;
+}
+.main-logo a{
+    text-decoration: none;
+    font-size: 56px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: -2px;
+}
+.baikal-ecommerce-cart{
+    color: #8ad592;
+    font-size: 10px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: 1px solid #8ad592;
+    border-radius: 5px;
+    padding: 9px 22px 7px 21px;
+    margin: 20px 0 10px 0;
+    letter-spacing: 2px;
+}
+.baikal-ecommerce-cart:before{
+    content: '';
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 12px;
+    background: url(../images/ecommerce/icon-baikal-ecommerce-cart.png);
+    width: 15px;
+    height: 14px;
+}
+.baikal-ecommerce-cart:hover{
+    background: rgba(138,213,146,0.2);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.baikal-ecommerce-main-menu{
+    background: #fff;
+    padding: 12px 0;
+}
+
+.baikal-ecommerce-main-menu-wrapper{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    padding-left: 210px;
+
+}
+.baikal-ecommerce-main-menu ul{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 550px;
+}
+.baikal-ecommerce-main-menu ul li a{
+    color: #3c3d41;
+    font-size: 13px;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.baikal-ecommerce-main-menu ul li a:hover{
+    color: #1f79ed;
+}
+.baikal-ecommerce-main-menu .search-panel{
+    width: 170px;
+}
+.search-panel-wrapper{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.search-panel-field{
+    border: none;
+}
+.search-panel-field:focus{
+    outline: none;
+}
+.search-panel-btn{
+    background: url(../images/ecommerce/search-panel-btn.png) no-repeat;
+    border: none;
+    width: 18px;
+}
+.baikal-ecommerce-promo{
+    background: url(../images/ecommerce/baikal-ecommerce-promo-bg.jpg);
+    background-size: cover;
+    padding: 32px 0 36px;
+    text-align: center;
+}
+.baikal-ecommerce-promo-title{
+    color: #3c3d41;
+    font-size: 52px;
+    font-weight: bold;
+    width: 300px;
+    margin: 0 auto;
+}
+.baikal-ecommerce-promo-info{
+    font-family: 'PT Serif', serif;
+    color: #666666;
+    font-size: 14px;
+    line-height: 20px;
+    width: 283px;
+    margin: 10px auto 0;
+}
+.baikal-ecommerce-shop{
+    background: #eaeaea;
+    padding: 51px 0 80px;
+}
+.baikal-ecommerce-shop .container{
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.shop-sidebar{
+    width: 230px;
+}
+.shop-sidebar-category{
+    margin: 0 0 20px 0;
+    padding: 0;
+    list-style-type: none;
+    border-radius: 5px;
+    overflow: hidden;
+}
+.shop-sidebar-category-item{
+    position: relative;
+    padding: 19px 15px 18px 18px;
+    border-bottom: 1px solid #eeeeee;
+    background: #fff;
+    color: #3c3d41;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.shop-sidebar-category-item:hover{
+    padding-bottom: 0;
+}
+.shop-sidebar-category-item:hover .shop-sidebar-category-hvr{
+    display: block;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.shop-sidebar-category-item a{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.shop-sidebar-category-hvr {
+    display: none;
+    list-style-type: none;
+    margin: 20px -20px 0 -20px;
+    padding: 0;
+}
+.shop-sidebar-category-item-hvr{
+    position: relative;
+    background: #838d8f;
+    font-family: 'PT Serif', serif;
+    color: #daddde;
+    font-size: 13px;
+    padding: 8px 0 8px 20px;
+}
+.shop-sidebar-category-item-hvr:hover{
+    background: #364042;
+}
+.shop-sidebar-category-item-hvr a{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.shop-sidebar-item{
+    background: #fff;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+.shop-sidebar-title{
+    margin: 0;
+    padding: 20px 0 20px 20px;
+    color: #3b3d40;
+    font-size: 11px;
+    font-weight: bold;
+    border-bottom: 1px solid #eeeeee;
+}
+.shop-sidebar-color ul{
+    height: 75px;
+}
+.shop-sidebar-item ul{
+    margin: 0;
+    padding: 20px 20px 30px 20px;
+    list-style-type: none;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.shop-sidebar-color ul li{
+
+}
+.shop-sidebar-item ul li a{
+    display: block;
+    width: 32px;
+    height: 32px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.shop-sidebar-color ul .blue a{
+     background: #1476f1;
+}
+.shop-sidebar-color ul .green a{
+    background: #82d889;
+}
+.shop-sidebar-color ul .black a{
+    background: #000;
+}
+.shop-sidebar-color ul .regent-grey a{
+    background: #808e91;
+}
+.shop-sidebar-color ul .jungle-mist a{
+    background: #b1c6c7;
+}
+.shop-sidebar-color ul .fire-bush a{
+     background: #e29543;
+ }
+.shop-sidebar-color ul .storm-grey a{
+    background: #7a7f93;
+}
+.shop-sidebar-color ul .dim-grey a{
+    background: #787878;
+}
+.shop-sidebar-color ul .silver a{
+    background: #bebebe;
+}
+.shop-sidebar-color ul .white-smoke a{
+    background: #efefef;
+}
+.shop-sidebar-size ul li a{
+    background: #eeeeee;
+    color: #3c3d41;
+    font-size: 11px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 8px;
+    height: 24px;
+}
+.shop-sidebar-size ul li a:hover{
+    background: #838d8f;
+    color: #fff;
+
+}
+.shop-sidebar-price{
+
+}
+
+.filter-range {
+    height: 90px;
+    margin: 30px auto 20px;
+    text-transform: uppercase;
+}
+
+
+.price-controls .min-price,
+.price-controls .max-price {
+    width: 90px;
+    padding-left: 65px;
+}
+.range-controls {
+    position: relative;
+    margin-bottom: 32px;
+}
+
+.range-controls .scale {
+    height: 2px;
+    width: 190px;
+    margin: 0 auto;
+    background: #eeeeee;
+}
+.range-controls .bar {
+    width: 80%;
+    height: 2px;
+    margin: 0 auto;
+    background: #838d8f;
+}
+.left-toggle,
+.right-toggle{
+    position: absolute;
+    top: -7px;
+}
+.range-toggle {
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border: 2px solid #838d8f;
+    border-radius: 50%;
+    cursor: pointer;
+}
+.range-toggle:hover {
+    background: #eee;
+}
+.left-toggle {
+    left: 16%;
+}
+.right-toggle {
+    left: 80%;
+}
+.toggle-price{
+    font-family: 'PT Serif', serif;
+    color: #878787;
+    font-size: 13px;
+    text-align: center;
+}
+
+.baikal-ecommerce-content{
+    width: 730px;
+}
+.baikal-ecommerce-content ul{
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+}
+.baikal-ecommerce-content ul .content-item{
+    position: relative;
+    width: 230px;
+    height: 300px;
+    background: #fff;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+.baikal-ecommerce-content ul .content-item:hover{
+    box-shadow: 1px 0 10px 9px rgba(143,141,143,0.5);
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+.baikal-ecommerce-content ul .content-item a{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 100;
+}
+.promo-label-new{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    z-index: 1;
+    padding: 2px 5px;
+    border-radius: 5px;
+    background: #84ce8b;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+.content-item-image{
+    height: 205px;
+    text-align: center;
+}
+.content-item-image img{
+    margin-top: 20px;
+}
+.content-item-name{
+    color: #3a3d3f;
+    font-size: 15px;
+    font-weight: bold;
+    max-width: 160px;
+    margin: 0 auto;
+    text-align: center;
+}
+.content-item-specification{
+    font-family: 'PT Serif', serif;
+    color: #838c8d;
+    font-size: 12px;
+    max-width: 160px;
+    margin: 0 auto;
+    text-align: center;
+}
+.content-item-price{
+    color: #393d3f;
+    font-size: 13px;
+    margin: 0 auto;
+    text-align: center;
+}
+.baikal-ecommerce-load-btn{
+    display: block;
+    text-align: center;
+    padding: 20px 0;
+    background: #b8c6c7;
+    color: #fff;
+    font-size: 15px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 5px;
+}
+.baikal-ecommerce-load-btn:hover{
+    background: #697778;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    transition: all 0.5s;
+}
+footer{
+    background: #fff;
+    padding: 50px 0;
+    text-align: center;
+}
+.footer-menu{
+    padding: 0;
+    margin: 0 auto;
+    list-style-type: none;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 610px;
+}
+.footer-menu li a{
+    color: #3c3d41;
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.footer-menu li a:hover{
+    color: #1f79ed;
+}
+.subscribe-form{
+    margin: 40px 0 35px;
+}
+.subscribe-form .subscribe-form-name{
+    color: #3c3d41;
+    font-size: 11px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+.subscribe-form-text-label{
+    position: relative;
+}
+.subscribe-form-text{
+    border: none;
+    border-radius: 5px;
+    background: #eeeeee;
+    padding: 10px 10px 10px 10px;
+}
+.subscribe-form-btn{
+    position: absolute;
+    right: 8px;
+    top: 2px;
+    border: none;
+    background: url(../images/ecommerce/subscribe-form-btn.png);
+    width: 19px;
+    height: 13px;
+    z-index: 1;
+}
+.social-network{
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-justify-content: space-between;
+    justify-content: space-between;
+    width: 115px;
+}
+.social-network li:hover a{
+    opacity: 0.7;
+}
+.social-network .facebook a{
+    display: block;
+    background: url(../images/ecommerce/social-network-facebook.png);
+    width: 18px;
+    height: 16px;
+}
+.social-network .twitter a{
+    display: block;
+    background: url(../images/ecommerce/social-network-twitter.png);
+    width: 18px;
+    height: 16px;
+}
+.social-network .instagram a{
+    display: block;
+    background: url(../images/ecommerce/social-network-instagram.png);
+    width: 18px;
+    height: 16px;
+}
+
+input[type=search]::-ms-clear {
+    display: none;
+}
+input[type=text]::-ms-clear {
+    display: none;
+}
