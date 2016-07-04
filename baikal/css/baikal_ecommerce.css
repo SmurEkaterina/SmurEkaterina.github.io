@@ -362,7 +362,7 @@ header .container{
 
 .range-controls .scale {
     height: 2px;
-    width: 190px;
+    width: 175px;
     margin: 0 auto;
     background: #eeeeee;
 }
@@ -384,6 +384,7 @@ header .container{
     border: 2px solid #838d8f;
     border-radius: 50%;
     cursor: pointer;
+    margin: 0 auto;
 }
 .range-toggle:hover {
     background: #eee;
